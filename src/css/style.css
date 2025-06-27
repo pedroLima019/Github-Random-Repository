@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.menu select {
+  width: 300px;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+
+#status {
+  margin: 15px 0;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  border-radius: 10px;
+  width: 600px;
+  height: 200px;
+  background: #707070;
+}
+
+.repository {
+  width: 100%;
+  padding: 2rem;
+}
+
+.repository h2,
+a {
+  color: black;
+  margin: 10px 0;
+}
+
+.repository p {
+  font-size: 12px;
+}
+
+.repository ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  gap: 10px;
+}
+
+.repository ul li {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#retry-btn {
+  margin: 5px 0;
+  width: 200px;
+  border: none;
+  padding: 0.3rem;
+  background: #ffe606;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#refresh-btn {
+  width: 200px;
+  border: none;
+  padding: 0.3rem;
+  background: #28a309;
+  color: #ffff;
+  font-weight: bold;
+  border-radius: 10px;
+}
